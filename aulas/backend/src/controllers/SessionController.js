@@ -1,0 +1,13 @@
+const connection = require('../database/connection');
+module.exports = {
+  async login(req, res){
+    const id = req.headers.authorization;
+    const ong = await connection('ongs').where('id',id ).select('name').first();
+
+    if (!ong){
+      return res.status(400).json({ error: "No ONG found with this ID"});
+    };
+
+    return res.json(ong);
+  }
+}
