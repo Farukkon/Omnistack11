@@ -1,0 +1,61 @@
+.incidents-container{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.incidents-container .content{
+  box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 1120px;
+  padding: 96px;
+  display: flex;
+  border-radius: 8px;
+}
+.incidents-container .content section{
+  margin-right: 90px;
+}
+.incidents-container .content section h1{
+  margin-top: 60px;
+  font-size: 36px;
+  font-weight: 500;
+  color: #13131A;
+}
+.incidents-container .content section p{
+  font-size: 18px;
+  line-height: 28px;
+  width: 384px;
+  margin-top: 32px;
+}
+
+.incidents-container .content section a{
+  display: flex;
+  height: 16px;
+  align-items: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #41414d;
+  margin-top: 80px;
+}
+.incidents-container .content section svg{
+  margin-right: 8px;
+}
+
+.incidents-container .content form input{
+  margin-bottom: 8px;
+}
+.incidents-container .content form textarea{
+  margin-bottom: 8px;
+}
+.incidents-container .content form .button-group{
+  display: flex;
+}
+.incidents-container .content form .button-group .cancel{
+  background: none;
+  width: 200px;
+  margin-right: 18px;
+  border: 2px solid #DCDCE6;
+  color: #41414D;
+}
