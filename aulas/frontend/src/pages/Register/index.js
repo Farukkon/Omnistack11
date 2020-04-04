@@ -30,7 +30,7 @@ export default function Register() {
 
       history.push('/');
     } catch (e) {
-      alert(`${(name, email, whatsapp, cidade, uf)}`);
+      alert('Não foi possivel criar seu perfil, tente novamente.');
     }
   }
 
